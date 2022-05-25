@@ -1,7 +1,7 @@
 //this is to change the first dice image
 var randomNumber1 = Math.floor((Math.random()*6)+1);
 
-var randomImageSource = "/images/" + "dice" + randomNumber1 + ".png";
+var randomImageSource = "/main/images/" + "dice" + randomNumber1 + ".png";
 
 var image1 = document.querySelector(".img1");
 
@@ -10,7 +10,7 @@ image1.setAttribute("src", randomImageSource);
 //this is to change the second dice image
 var randomNumber2 = Math.floor((Math.random()*6)+1);
 
-var randomImageSource2 = "/images/" + "dice" + randomNumber2 + ".png";
+var randomImageSource2 = "/main/images/" + "dice" + randomNumber2 + ".png";
 
 var image2 = document.querySelector(".img2");
 
